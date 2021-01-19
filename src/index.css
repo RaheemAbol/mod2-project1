@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-color: #DDD;
+}
+
+
+.App{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.c-player {
+  display: block;
+  background-color:rgb(37, 37, 37);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.c-player > h4{
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 400;
+  text-align: center;
+}
+
+
+.c-player > p {
+  color: #AAA;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.player-details .details-img {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.player-details .details-img img {
+  display:block;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8), -6px -6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.player-details .details-title {
+  color: #EEE;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.player-details .details-artist {
+  color: #AAA;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
