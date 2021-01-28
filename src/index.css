@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #DDD;
+  background-color:#ff0066;
+  
 }
 
 
@@ -19,7 +20,7 @@ body {
 
 .c-player {
   display: block;
-  background-color:rgb(37, 37, 37);
+  background-color:rgb(36, 36, 36);
   padding: 50px;
   border-radius: 16px;
   box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
@@ -72,3 +73,70 @@ body {
   margin-bottom: 20px;
 }
 
+.c-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.c-controls .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+  outline:none;
+  background-color:aqua;
+  color: #FFF;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.c-controls .backward-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+.c-controls .forward-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+.bluetooth {
+  text-align: right;
+  color:#EEE;
+}
+
+.hooli {
+  color:aqua;
+  text-align: center;
+  font-size: 50px;
+  
+}
+.percent {
+  text-align: right;
+  font-size:10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.pause-btn {
+  padding-right: 5px;
+  margin-right: 25px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
