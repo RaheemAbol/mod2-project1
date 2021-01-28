@@ -1,4 +1,9 @@
 import React from 'react'
+//lines 9-10 will be used for styling
+//line 11 will display the image 
+//line 15 will display the song title
+//line 16 will display the artist's name
+//passing props through enables us to target them via props.song.* 
 
 export default function Details(props) {
     return (
